@@ -119,19 +119,6 @@ function Home() {
                                 </label>
 
                             </fieldset>
-                            <fieldset>
-                                <label>
-                                    <p>Choose Payment method</p>
-                                    <select name="payment">
-                                        <option value="">--All made in-person--</option>
-                                        <option value="credit">Credit Card</option>
-                                        <option value="UPI">UPI/Paytm</option>
-                                        <option value="Cash">Cash on Delivery</option>
-                                        <option value="Wallet">Digital Wallet points</option>
-                                    </select>
-                                </label>
-                            </fieldset>
-
                             <button type="submit">Submit</button>
                         </form>
                     </div>
