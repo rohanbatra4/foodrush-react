@@ -4,3 +4,4 @@ export { default as Home } from "./Home";
 export { default as Info } from "./info";
 export { default as Creator } from "./creator";
 export { default as Order } from "./order";
+export { default as Payment } from "./payment";

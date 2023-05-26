@@ -10,6 +10,7 @@ import {
   Info,
   Creator,
   Order,
+  Payment,
 } from "./modules/Layout";
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/info" element={<Info />} />
       <Route path="/creator" element={<Creator />} />
       <Route path="/order" element={<Order />} />
+      <Route path="/payment" element={<Payment />} />
     </Routes>
     <Footer />
   </Router>,

@@ -3,8 +3,6 @@ import { useState } from 'react';
 import banner from "../assets/images/banner.jpg";
 import extra from '../assets/images/extra.jpg'
 
-
-
 function Home() {
     const [Name, setName] = useState('');
     const [MbNumber, setMbNumber] = useState('');
@@ -15,11 +13,6 @@ function Home() {
         // check if mobile number is valid
         if (MbNumber.length !== 10) {
             alert("Please enter a valid mobile number");
-            return;
-        }
-        // check if payment method is selected
-        if (document.getElementsByName('payment')[0].value === "") {
-            alert("Please select a payment method");
             return;
         }
         // check if restaurant is selected
@@ -33,7 +26,7 @@ function Home() {
             return;
         }
         // navigate to order page
-        window.location.href = "/order";
+        window.location.href = "/payment";
         // reset form
         setName('');
         setMbNumber('');
@@ -119,7 +112,7 @@ function Home() {
                                 </label>
 
                             </fieldset>
-                            <button type="submit">Submit</button>
+                            <button type="submit" className="btn btn-secondary">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -128,8 +121,5 @@ function Home() {
     );
 
 }
-
-
-
 
 export default Home;
