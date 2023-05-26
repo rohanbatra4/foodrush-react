@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/foodrush-react/static/css/main.e6c13ad2.css",
+    "main.js": "/foodrush-react/static/js/main.84fea8e4.js",
+    "static/media/fabfoodfacts.jpg": "/foodrush-react/static/media/fabfoodfacts.ed34cf35f60de1eb34a6.jpg",
+    "static/media/print.jpg": "/foodrush-react/static/media/print.cba65edd68e05a38b004.jpg",
+    "static/media/banner.jpg": "/foodrush-react/static/media/banner.dabf21bf3fc09fd44a45.jpg",
+    "static/media/extra.jpg": "/foodrush-react/static/media/extra.36645eec8b00ad8a18df.jpg",
+    "index.html": "/foodrush-react/index.html",
+    "main.e6c13ad2.css.map": "/foodrush-react/static/css/main.e6c13ad2.css.map",
+    "main.84fea8e4.js.map": "/foodrush-react/static/js/main.84fea8e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.84fea8e4.js"
+  ]
+}
